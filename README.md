@@ -1,4 +1,4 @@
-<h2 align="center">Caption Craft</h2>
+<h1 align="center">Caption Craft</h1>
 
 # Caption Craft - Image Caption Generator
 
