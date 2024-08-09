@@ -7,8 +7,6 @@ Welcome to **Caption Craft**, a web application designed to generate descriptive
 
 The application leverages a model trained on the Flickr8k dataset, combining Convolutional Neural Networks (CNNs) for image feature extraction with Recurrent Neural Networks (RNNs) for generating coherent and meaningful text descriptions. 
 
-Caption Craft is ideal for various applications, from enhancing personal photo collections to exploring AI-driven image captioning for research or development purposes. It offers a robust solution for adding insightful text to a diverse range of images.
-
 ## Features ✨
 
 - **Image Upload**: Users can upload images through a user-friendly web interface.
