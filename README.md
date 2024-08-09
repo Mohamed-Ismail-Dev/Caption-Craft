@@ -91,20 +91,24 @@ The image captioning model in Caption Craft is built by combining a Convolutiona
 
    ### Using `wget`
     
-    ```bash
-    # Download the pre-trained model weights
-    wget https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_model_weights.h5````
+   **Download the pre-trained model weights**
+      
+      ```bash
+      wget https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_model_weights.h5
     
-    # Download the vocabulary file
-    wget https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_vocab.npy
+   **Download the vocabulary file**
+    
+      wget https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_vocab.npy
 
    ### Using `curl`
     
+   **Download the pre-trained model weights**
+    
     ```bash
-    # Download the pre-trained model weights
     curl -O https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_model_weights.h5
     
-    # Download the vocabulary file
+   **Download the vocabulary file**
+   
     curl -O https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_vocab.npy
 
 ### 4. Run the Flask app:
