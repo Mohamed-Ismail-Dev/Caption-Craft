@@ -87,13 +87,12 @@ The image captioning model in Caption Craft is built by combining a Convolutiona
 
 ### 3. Download the pre-trained model weights and vocabulary:
 
-   To download the pre-trained model weights and vocabulary, use the following commands:
+  To download the pre-trained model weights and vocabulary, use the following commands:
 
    ### Using `wget`
     
    **Download the pre-trained model weights**
       
-      ```bash
       wget https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_model_weights.h5
     
    **Download the vocabulary file**
@@ -104,7 +103,6 @@ The image captioning model in Caption Craft is built by combining a Convolutiona
     
    **Download the pre-trained model weights**
     
-    ```bash
     curl -O https://github.com/Mohamed-Ismail-Dev/Caption-Craft/raw/main/mine_model_weights.h5
     
    **Download the vocabulary file**
