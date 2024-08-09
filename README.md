@@ -1,8 +1,13 @@
 <h1 align="center">Caption Craft</h1>
 
-# Caption Craft - Image Caption Generator
 
-This repository contains **Caption Craft**, an web application designed to generate descriptive captions for images using the power of deep learning. Built with Flask and Keras, Caption Craft allows users to upload images through a user-friendly interface and receive detailed, contextually accurate captions. The underlying model, trained on the Flickr8k dataset, combines Convolutional Neural Networks (CNNs) for extracting image features with Recurrent Neural Networks (RNNs) for generating coherent and meaningful text descriptions. Whether for personal use or exploring AI-driven image captioning, Caption Craft offers a robust solution for adding descriptive text to a wide range of images.
+# Caption Craft - Advanced Image Caption Generator
+
+Welcome to **Caption Craft**, an advanced web application designed to generate descriptive captions for images using deep learning. Built with Flask and Keras, Caption Craft provides an intuitive interface for users to upload images and receive detailed, contextually accurate captions.
+
+The application leverages a model trained on the Flickr8k dataset, combining Convolutional Neural Networks (CNNs) for image feature extraction with Recurrent Neural Networks (RNNs) for generating coherent and meaningful text descriptions. 
+
+Caption Craft is ideal for various applications, from enhancing personal photo collections to exploring AI-driven image captioning for research or development purposes. It offers a robust solution for adding insightful text to a diverse range of images.
 
 ## Features ✨
 
