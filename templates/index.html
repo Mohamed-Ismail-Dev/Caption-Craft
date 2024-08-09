@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+    <header>
+        <h1>Image Captioning</h1>
+    </header>
+
+    <form action="{{url_for('after')}}" enctype="multipart/form-data" method="POST">
+
+        <img src="{{url_for('static', filename='file.jpg')}}" alt="Uploded Image">
+
+        <div class="final-text">
+            {{final}}
+        </div>
+
+        <input type="file" name="file1" >
+
+        <input type="submit" value="Generate Caption">
+
+        <ul>
+            <li>Choose Your Image</li>
+            <li>Then Click The 'Generate Caption' Button</li>
+            <li>The Caption Will Generate Shortly</li>
+        </ul>
+    </form>
+
+</body>
+
+</html>
+
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        body {
+            background-color: #d4e4c8;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+        }
+
+        header {
+            color: #1B3409;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 20px 0;
+        }
+
+        form {
+            width: 900px;
+            margin: 20px auto;
+            padding: 80px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin: 20px auto;
+            background: linear-gradient(to right, #437a1c, #6acc25);
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.1) ;
+        }
+
+        input[type="submit"]:hover {
+            background: linear-gradient(to right, #48c145, #28d02b);
+            transform: scale(1.05);
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.1) ;
+        }
+
+        ul {
+            color: #1e5a10;
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        .final-text {
+            height: 100px;
+            width: 95%;
+            margin: 20px auto;
+            padding: 10px;
+            border: 1px solid #1a511b;
+            resize: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ddd;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+    </style>
+
