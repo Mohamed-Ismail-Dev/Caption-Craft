@@ -2,7 +2,7 @@
 
 This repository contains **Caption Craft**, an image caption generator web application built using Flask and Keras. The app generates descriptive captions for uploaded images using a deep learning model trained on the Flickr8k dataset.
 
-![Caption Craft Technologies](technology.png)
+![Caption Craft Technologies](https://github.com/Mohamed-Ismail-Dev/Caption-Craft/edit/main/technology.webp)
 
 ## Features ✨
 
